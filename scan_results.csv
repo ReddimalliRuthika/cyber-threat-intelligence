@@ -1,0 +1,12 @@
+target,issue,severity,timestamp,risk_score
+http://testphp.vulnweb.com,Website unreachable,Critical,2026-03-16 12:14:19.779659,10
+http://testasp.vulnweb.com,No HTTPS,High,2026-03-16 12:14:19.948089,7
+http://testasp.vulnweb.com,Missing X-Frame-Options,Medium,2026-03-16 12:14:19.948096,4
+http://testasp.vulnweb.com,Missing CSP Header,High,2026-03-16 12:14:19.948097,7
+http://testasp.vulnweb.com,Missing X-Content-Type-Options,Medium,2026-03-16 12:14:19.948098,4
+http://testasp.vulnweb.com,Server Header Exposed,Low,2026-03-16 12:14:19.948100,2
+http://zero.webappsecurity.com,No HTTPS,High,2026-03-16 12:14:20.343873,7
+http://zero.webappsecurity.com,Missing X-Frame-Options,Medium,2026-03-16 12:14:20.343879,4
+http://zero.webappsecurity.com,Missing CSP Header,High,2026-03-16 12:14:20.343880,7
+http://zero.webappsecurity.com,Missing X-Content-Type-Options,Medium,2026-03-16 12:14:20.343881,4
+http://zero.webappsecurity.com,Server Header Exposed,Low,2026-03-16 12:14:20.343882,2
