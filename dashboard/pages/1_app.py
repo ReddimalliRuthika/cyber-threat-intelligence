@@ -12,8 +12,7 @@ VT_API_KEY = os.getenv("VT_API_KEY")
 # ─────────────────────────────
 # 📁 FIX PATH FOR MODULE IMPORTS
 # ─────────────────────────────
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 # 🔗 Import project modules
 from modules.scanner import run_nmap_scan, parse_nmap_xml, check_virustotal
 from modules.analyser import enrich_dataframe
